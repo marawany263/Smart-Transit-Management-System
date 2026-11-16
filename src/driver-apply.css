@@ -1,0 +1,9 @@
+.hero-proof{flex-wrap:wrap}
+.driver-apply-inline{border:0;background:transparent;color:var(--green);font:inherit;font-size:10px;font-weight:600;padding:4px;cursor:pointer}
+.driver-apply-inline:hover{text-decoration:underline}
+.driver-apply-button{margin-bottom:13px;font-size:10px!important}
+
+@media(max-width:780px){
+  .hero-proof{gap:9px}
+  .driver-apply-inline{margin-inline-start:0}
+}
